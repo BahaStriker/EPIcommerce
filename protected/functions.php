@@ -39,8 +39,7 @@ function db_mssql_check_xss () {
 			(strpos($url, '\'') !== false) ||
 			(strpos($url, './') !== false) ||
 			(strpos($url, '../') !== false) ||
-			(strpos($url, '--') !== false) ||
-			(strpos($url, '.php') !== false)
+			(strpos($url, '--') !== false)
 		   )
 		{
 			die("You're not Authorized!");

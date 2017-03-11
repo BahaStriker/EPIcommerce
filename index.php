@@ -20,9 +20,10 @@ else
 unset($_GET["page"]);
 unset($_GET["_"]);
 
-//loading configs
+//loading configs & functions
 chdir(__dir__);
 require "protected/config.php";
+require "protected/functions.php";
 
 //Checking if there's a session or not
 if(session_id() == '') 
