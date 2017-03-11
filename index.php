@@ -36,7 +36,7 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 {
 	if(isset($_SESSION['loging']))
 	{
-		if($_SESSION['loging']	==	1)
+		if($_SESSION['loging']	==	0)
 		{
 			switch($page)
 			{
