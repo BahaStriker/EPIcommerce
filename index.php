@@ -72,7 +72,11 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				
 				case "register":	require "views/register.php";
 									require "pages/register.php";
-									break;		
+									break;	
+				
+				case "login":		require "views/login.php";
+									require "pages/login.php";
+									break;
 				
 				default:			require 'views/404.php';
 									break;
