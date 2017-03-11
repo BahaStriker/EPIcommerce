@@ -20,6 +20,9 @@ else
 unset($_GET["page"]);
 unset($_GET["_"]);
 
+//loading configs
+chdir(__dir__);
+require "protected/config.php";
 
 //Checking if there's a session or not
 if(session_id() == '') 
@@ -42,7 +45,7 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "index.php":	require "views/main.php";
 									break;
 									
-				default:			require '404.php';
+				default:			require 'views/404.php';
 									break;					
 			}
 		}
@@ -61,7 +64,7 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "index.php":	require "views/main.php";
 									break;
 				
-				default:			require '404.php';
+				default:			require 'views/404.php';
 									break;
 			}
 	}
