@@ -21,7 +21,6 @@ if(isset($_POST['register']))
     $Pass		= StrToLower(Trim($Pass));
     $Repass 	= office_secure($Repass);
     $Repass 	= StrToLower(Trim($Repass));
-    $Email 		= $Name
     $Email 		= Trim($Email);
 	$Name		= office_secure($Name);
 	$Name		= StrToLower(Trim($Name));
