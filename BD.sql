@@ -1,66 +1,41 @@
--- phpMyAdmin SQL Dump
--- version 4.5.5.1
--- http://www.phpmyadmin.net
---
--- Client :  127.0.0.1
--- Généré le :  Sam 11 Mars 2017 à 23:33
--- Version du serveur :  5.7.11
--- Version de PHP :  5.6.19
+/*
+Navicat MySQL Data Transfer
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+Source Server         : EPI
+Source Server Version : 50554
+Source Host           : 173.212.208.17:3306
+Source Database       : market
 
+Target Server Type    : MYSQL
+Target Server Version : 50554
+File Encoding         : 65001
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+Date: 2017-03-11 23:48:15
+*/
 
---
--- Base de données :  `BD`
---
+SET FOREIGN_KEY_CHECKS=0;
 
--- --------------------------------------------------------
+-- ----------------------------
+-- Table structure for users
+-- ----------------------------
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(64) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `name` varchar(20) DEFAULT NULL,
+  `lastname` varchar(35) DEFAULT NULL,
+  `email` varchar(50) NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `country` varchar(255) DEFAULT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  `state` varchar(255) DEFAULT NULL,
+  `zip` varchar(255) DEFAULT NULL,
+  `birthdate` date DEFAULT NULL,
+  `role` enum('member','seller','admin') NOT NULL DEFAULT 'member',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Structure de la table `user`
---
-
-CREATE TABLE `user` (
-  `Id` bigint(20) UNSIGNED NOT NULL COMMENT 'Id',
-  `Username` text,
-  `Name` text,
-  `LastName` text,
-  `Password` text,
-  `mail` text,
-  `Zip` int(10) DEFAULT NULL,
-  `country` text,
-  `City` text,
-  `State` text,
-  `BDay` date DEFAULT NULL,
-  `Type` char(1) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Index pour les tables exportées
---
-
---
--- Index pour la table `user`
---
-ALTER TABLE `user`
-  ADD PRIMARY KEY (`Id`,`Type`),
-  ADD UNIQUE KEY `Id` (`Id`);
-
---
--- AUTO_INCREMENT pour les tables exportées
---
-
---
--- AUTO_INCREMENT pour la table `user`
---
-ALTER TABLE `user`
-  MODIFY `Id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Id';
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- ----------------------------
+-- Records of users
+-- ----------------------------
