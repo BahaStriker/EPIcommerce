@@ -1,0 +1,2 @@
+<?php
+//registration view

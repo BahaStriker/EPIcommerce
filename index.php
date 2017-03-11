@@ -43,7 +43,7 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "":
 				case "home":
 				case "index.php":	require "views/main.php";
-									break;
+									break;				
 				
 				case "logout":		session_unset();
 									session_destroy();
@@ -68,6 +68,10 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "home":
 				case "index.php":	require "views/main.php";
 									break;
+				
+				case "register":	require "views/register.php";
+									require "pages/register.php";
+									break;		
 				
 				default:			require 'views/404.php';
 									break;
