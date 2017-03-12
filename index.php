@@ -69,6 +69,9 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "profile":		require "pages/profile.php";
 									require "views/profile.php";
 									break;
+				case "test":		
+									require "views/test.php";
+									break;					
 				case "logout":		session_unset();
 									session_destroy();
 									header('Location: /');
