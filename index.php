@@ -38,7 +38,7 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 	require	"views/header.php";
 	if(isset($_SESSION['log']))
 	{
-		if($_SESSION['log']	==	0)
+		if($_SESSION['log']	==	1)
 		{
 			switch($page)
 			{
