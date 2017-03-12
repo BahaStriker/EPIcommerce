@@ -354,3 +354,13 @@ width:0px;
 		.behclick-panel a:active {
 		    text-decoration:none;
 		}
+.alert{border-radius:2px;-webkit-border-radius:2px}
+.alert p{margin-bottom:0;font-size:14px;line-height:20px}
+.alert .btn{margin-top:20px}
+.alert-lg{padding:25px}
+.alert-title{padding-bottom:20px}
+.alert-success{color:#5b865b;background-color:#f0f9ed;border-color:#d6e6d0}
+.alert-info{color:#5086a0;background-color:#eff6ff;border-color:#d0e1f7}
+.alert-warning{color:#968c53;background-color:#fdfbef;border-color:#ece8ce}
+.alert-danger{color:#986f68;background-color:#fdedea;border-color:#e6ceca}
+.alert .alert-link{color:rgba(0,0,0,0.5)}
