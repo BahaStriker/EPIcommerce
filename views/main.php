@@ -15,7 +15,7 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/1-rec.jpg);">
 <div class="overlay">
  <div class="description">
-   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">
+   <button type="button" class="bat btn btn-primary" data-toggle="modal" data-target="#exampleModal6">
    More Details</button>
 </div>
 </div>
@@ -25,7 +25,7 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/2-rec.jpg);">
 <div class="overlay">
 <div class="description">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
+  <button type="button" class="bat btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
   More Details</button></div>
 </div>
 </div>
@@ -34,7 +34,7 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/3-rec.jpg);">
 <div class="overlay">
 <div class="description">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
+  <button type="button" class="bat btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
   More Details</button></div>
 </div>
 </div>
@@ -43,7 +43,7 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/4-rec.jpg);">
 <div class="overlay">
 <div class="description">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal9">
+  <button type="button" class="bat btn btn-primary" data-toggle="modal" data-target="#exampleModal9">
   More Details</button></div>
 </div>
 </div>

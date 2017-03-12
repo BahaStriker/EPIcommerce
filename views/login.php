@@ -24,6 +24,6 @@ echo $RESULT;
 	Don't have an account? <a href="?page=register">Register Now</a>
 </div>
 </div>
-<div class="ddddddddd">
+<div class="drdr">
 
 </div>

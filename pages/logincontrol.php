@@ -9,14 +9,7 @@ if(isset($_SESSION['log']))
 			 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 		 </li>
 
-		 <li class="nav-item dropdown">
-			 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-			 <div class="dropdown-menu" aria-labelledby="dropdown01">
-				 <a class="dropdown-item" href="#">Action</a>
-				 <a class="dropdown-item" href="#">Another action</a>
-				 <a class="dropdown-item" href="#">Something else here</a>
-			 </div>
-		 </li>
+		
 		 <form class="form-inline my-2 my-lg-0 pad" method="POST" action="?page=search">
 			 <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter By</a>
@@ -45,17 +38,7 @@ HTML;
 		 <li class="nav-item active">
 			 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 		 </li>
-		 <li class="nav-item">
-			 <a class="nav-link" href="#">Contact Us</a>
-		 </li>
-		 <li class="nav-item dropdown">
-			 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-			 <div class="dropdown-menu" aria-labelledby="dropdown01">
-				 <a class="dropdown-item" href="#">Action</a>
-				 <a class="dropdown-item" href="#">Another action</a>
-				 <a class="dropdown-item" href="#">Something else here</a>
-			 </div>
-		 </li>
+
 		 <form class="form-inline my-2 my-lg-0 pad" method="POST" action="?page=search">
 			 <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter By</a>
