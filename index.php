@@ -38,8 +38,14 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 	if(isset($_SESSION['log']))
 	{
 		$USER	=	'<li class="loga nav-item">
-			 <a class="nav-link" href="?page=logout"><i class="icon fa fa-user"></i> Logout</a>
-				</li>';
+			 <a class="nav-link" href="?page=logout"><i class="fa fa-power-off"></i> Logout</a>
+				</li>
+				<li class="logaaa nav-item">
+			<a class="nav-link" href="?page=profile"><i class="icon fa fa-user"></i> Profile</a>
+	 </li>
+				<li class="logaa nav-item">
+			<a class="nav-link" href="?page=cart"><i class="icon fa fa-cart-arrow-down"></i> Cart</a>
+	 </li>';
 		require	"views/header.php";
 		if($_SESSION['log']	==	1)
 		{
@@ -60,7 +66,8 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "article":		require "pages/article.php";
 									require "views/addarticle.php";
 									break;						
-				case "test":		require "views/test.php";
+				case "profile":		require "pages/profile.php";
+									require "views/profile.php";
 									break;
 				case "logout":		session_unset();
 									session_destroy();

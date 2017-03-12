@@ -30,6 +30,17 @@ function get_ip()
 
 ////////////////////////////// 
 
+function obfuscate_email($email)
+{
+    $em   = explode("@",$email);
+    $name = implode(array_slice($em, 0, count($em)-1), '@');
+    $len  = floor(strlen($name)/2);
+
+    return substr($name,0, $len) . str_repeat('*', $len) . "@" . end($em);
+}    
+
+////////////////////////////// 
+
 function db_mssql_check_xss () {
 	$url = html_entity_decode(urldecode($_SERVER['QUERY_STRING']));
 	if ($url) {
