@@ -55,12 +55,7 @@
 			 <input class="form-control mr-sm-2" type="text" name="item" placeholder="Search">
 			 <input type="submit" class="btn btn-outline-success my-2 my-sm-0" name="search" value="Search">
 		 </form>
-		 <li class="loga nav-item">
-			 <a class="nav-link" href="?page=login"><i class="icon fa fa-user"></i>login</a>
-		 </li>
-		 <li class="logaa nav-item">
-			<a class="nav-link" href="?page=register"><i class="icon fa fa-pensil"></i>register</a>
-		</li>
+		 <?php echo $USER; ?>
 	 </ul>
 
 	</div>
