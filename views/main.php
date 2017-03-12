@@ -303,7 +303,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
     <div class="col-md-4 brofist">
       <p class="card-text">MEGIR Watch</p>
       <h1>99£</h1>
-      <input type="submit" class="btn btn-primary fa fa-cart-plus" name="action"></input>
+      <input type="submit" class="btn btn-primary fa fa-cart-plus" name="action"><span class="fa fa-cart-plus"></span></input>
     </div>
 
   </div>
@@ -332,7 +332,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
     <div class="col-md-4 brofist">
       <p class="card-text">MEGIR Watch</p>
       <h1>99£</h1>
-      <input type="submit" class="btn btn-primary fa fa-cart-plus" name="action"></input>
+      <input type="submit" class="btn btn-primary " name="action"><span class="fa fa-cart-plus"></span></input>
     </div>
 
   </div>
@@ -361,7 +361,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
     <div class="col-md-4 brofist">
       <p class="card-text">MEGIR Watch</p>
       <h1>99£</h1>
-    <input type="submit" class="btn btn-primary fa fa-cart-plus" name="action"></input>
+    <input type="submit" class="btn btn-primary" name="action"><span class="fa fa-cart-plus"></span></input>
     </div>
 
   </div>
@@ -390,7 +390,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
     <div class="col-md-4 brofist">
       <p class="card-text">MEGIR Watch</p>
       <h1>99£</h1>
-      <input type="submit" class="btn btn-primary fa fa-cart-plus" name="action"></input>
+      <input type="submit" class="btn btn-primary" name="action"><span class="fa fa-cart-plus"></span></input>
     </div>
 
   </div>
