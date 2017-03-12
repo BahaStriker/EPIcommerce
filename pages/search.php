@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['search'])
+if(isset($_POST['search']))
 {
 	$ITEM	=	trim($_POST['item']);
 	$ITEM	=	office_secure($ITEM);
