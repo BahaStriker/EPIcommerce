@@ -59,7 +59,7 @@
 			 <a class="nav-link" href="?page=login"><i class="icon fa fa-user"></i>  login</a>
 		 </li>
 		 <li class="logaa nav-item">
-			<a class="nav-link" href="?page=register"><i class="icon fa fa-pensil"></i>register</a>
+			<a class="nav-link" href="?page=register"><i class="fa fa-pencil-square-o"></i> register</a>
 		</li>
 	 </ul>
 
