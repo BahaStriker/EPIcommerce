@@ -65,16 +65,16 @@
   </ol>
   <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
-  <img class="d-block img-fluid" src="style/css/img/gal-3.jpg" alt="First slide">
+  <img class="d-block img-fluid" src="../style/css/img/gal-3.jpg" alt="First slide">
   <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <div class="carousel-item">
-  <img class="d-block img-fluid" src="style/css/img/gal-2.jpg" alt="Second slide">
+  <img class="d-block img-fluid" src="../style/css/img/gal-2.jpg" alt="Second slide">
   <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </div>
 <div class="carousel-item">
-  <img class="d-block img-fluid" src="style/css/img/gal-1.jpg" alt="Third slide">
+  <img class="d-block img-fluid" src="../style/css/img/gal-1.jpg" alt="Third slide">
   <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </div>

@@ -103,8 +103,12 @@ width:0px;
 .navbar-brand {
 
 
-  width:60px;
+  width:90px;
 
+}
+.pad {
+  position: absolute;
+  right:188px;
 }
 .btn-inverse {
   background-color: #292b2c;
@@ -120,3 +124,233 @@ width:0px;
 .margi {
   width:100%
 }
+.loga {
+  position: absolute;
+  right:10px;
+}
+.logaa {
+  position: absolute;
+  right:70px;
+}
+html,body{
+
+margin:0px auto;
+}
+.nav-link{
+  color:white;
+}
+.marg {
+
+  margin-top:5px;
+}
+.progress, .alert {
+margin-top: 2px;
+    height:10px;
+    border-radius:0px;
+}
+.icon {
+  background:transparent;
+}
+.sear {
+padding-left: 5px;
+  position:absolute;
+  right:200px;
+  border:none;
+  border-radius: 15px 15px 15px 15px;
+  width:20px;
+transition: width 1s linear;
+}
+.owl-carousel {
+width:0px;
+
+  margin-top:59px;
+  height:300px;
+
+}
+.card {
+  opacity:0;
+  transition:opacity 1s linear;
+}
+.widget {
+  height: 300px;
+  margin-right: 10px;
+
+
+
+
+}
+.dow {
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px;
+  width:90%;
+}
+.desc {
+  width:45%;
+  position:absolute;
+  right:0;
+}
+.btnn {
+  z-index: 2;
+  position: absolute;
+  right:200px;
+  width:18px;
+  margin:0px;
+}
+.b {
+  transition: opacity 1s linear;
+  opacity:0;
+
+}
+.card {
+  margin-top:5px;
+}
+.s {
+  transition:width 1s linear;
+  width:0px;
+  height:0px;
+}
+.topi{
+  margin-top:100px;
+
+
+}
+.bra {
+  color:white;
+}
+.card-header {
+
+  color: white;
+}
+.card-footer {
+  background-color: lightgray;
+  color:white;
+}
+.navbar-brand {
+
+
+  width:90px;
+
+}
+.pad {
+  position: absolute;
+  right:10;
+}
+.btn-inverse {
+  background-color: #292b2c;
+  border: 0.9px white;
+}
+.btn-inverse,.btn a{
+  color:white;
+}
+.btn-inverse:hover {
+  background-color: lightgray;
+  color:black;
+}
+.margi {
+  width:100%
+}
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -10px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+.behclick-panel  .list-group {
+    		margin-bottom: 0px;
+		}
+		.behclick-panel .list-group-item:first-child {
+			border-top-left-radius:0px;
+			border-top-right-radius:0px;
+		}
+		.behclick-panel .list-group-item {
+			border-right:0px;
+			border-left:0px;
+		}
+		.behclick-panel .list-group-item:last-child{
+			border-bottom-right-radius:0px;
+			border-bottom-left-radius:0px;
+		}
+		.behclick-panel .list-group-item {
+			padding: 5px;
+		}
+		.behclick-panel .panel-heading {
+			/* 				padding: 10px 15px;
+                            border-bottom: 1px solid transparent; */
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+			border-bottom: 1px solid darkslategrey;
+		}
+		.behclick-panel .panel-heading:last-child{
+			/* border-bottom: 0px; */
+		}
+		.behclick-panel {
+			border-radius: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			border-bottom: 0px;
+			box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+		}
+		.behclick-panel .radio, .checkbox {
+			margin: 0px;
+			padding-left: 10px;
+		}
+		.behclick-panel .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+			outline: none;
+		}
+		.behclick-panel .panel-body > .panel-heading{
+			padding:10px 10px;
+		}
+		.behclick-panel .panel-body {
+			padding: 0px;
+		}
+		 /* unvisited link */
+		.behclick-panel a:link {
+		    text-decoration:none;
+		}
+
+		/* visited link */
+		.behclick-panel a:visited {
+		    text-decoration:none;
+		}
+
+		/* mouse over link */
+		.behclick-panel a:hover {
+		    text-decoration:none;
+		}
+
+		/* selected link */
+		.behclick-panel a:active {
+		    text-decoration:none;
+		}
