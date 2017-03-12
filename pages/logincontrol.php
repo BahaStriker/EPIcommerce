@@ -35,7 +35,7 @@ if(isset($_SESSION['log']))
 			 <a class="nav-link" href="?page=logout"><i class="icon fa fa-user"></i>Logout</a>
 		</li>
 		<li class="logaa nav-item">
-			<a class="nav-link" href="?page=logout"><i class="icon fa fa-cart-arrow-down"></i>Logout</a>
+			<a class="nav-link" href=""><i class="icon fa fa-cart-arrow-down"></i></a>
 	 </li>
 	 </ul>
 HTML;

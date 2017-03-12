@@ -237,3 +237,136 @@ Samsung Mobile is defying barriers once again with premium Galaxy smartphones th
 </div>
 </div>
 </div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">GoPro Hero 3</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+  </div>
+  <div class="modal-body">
+<iframe width="460" height="480" src="https://www.youtube.com/embed/A3PDXmYoF5U" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="modal-footer">
+Capture and share your life's most meaningful experiences with the HERO3+ Black Edition. 20% smaller and lighter than its best-selling predecessor, it delivers improved image quality and powerful new features geared for versatility and convenience. SuperView™ is a new video mode that captures the world's most immersive wide angle perspective, while Auto Low Light mode intelligently adjusts frame rate for stunning low-light performance. Combined with 30% longer battery life, faster built-in Wi-Fi and a sharper lens, the HERO3+ Black Edition is the most advanced GoPro yet.  </div>
+</div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">MEGIR</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+  </div>
+  <div class="modal-body">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <img src="style/css/img/2rec.jpg" alt="">
+
+    </div>
+    <div class="col-md-4 brofist">
+      <p class="card-text">MEGIR Watch</p>
+      <h1>99£</h1>
+    <a href="#" class="btn btn-primary fa fa-cart-plus"></a>
+    </div>
+
+  </div>
+
+</div>
+</div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">MEGIR</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+  </div>
+  <div class="modal-body">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <img src="style/css/img/3rec.jpg" alt="">
+
+    </div>
+    <div class="col-md-4 brofist">
+      <p class="card-text">MEGIR Watch</p>
+      <h1>99£</h1>
+    <a href="#" class="btn btn-primary fa fa-cart-plus"></a>
+    </div>
+
+  </div>
+
+</div>
+</div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">MEGIR</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+  </div>
+  <div class="modal-body">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <img src="style/css/img/4rec.jpg" alt="">
+
+    </div>
+    <div class="col-md-4 brofist">
+      <p class="card-text">MEGIR Watch</p>
+      <h1>99£</h1>
+    <a href="#" class="btn btn-primary fa fa-cart-plus"></a>
+    </div>
+
+  </div>
+
+</div>
+</div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">MEGIR</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+  </div>
+  <div class="modal-body">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <img src="style/css/img/1rec.jpg" alt="">
+
+    </div>
+    <div class="col-md-4 brofist">
+      <p class="card-text">MEGIR Watch</p>
+      <h1>99£</h1>
+    <a href="#" class="btn btn-primary fa fa-cart-plus"></a>
+    </div>
+
+  </div>
+
+</div>
+</div>
+  </div>
+</div>
+</div>
