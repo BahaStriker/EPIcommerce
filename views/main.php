@@ -94,19 +94,19 @@
 <div class="col-md-7 col-sm-7 col-xs-7">
 <div class="card text-center">
 <div class="card-header bg-primary">
-Featured
+GoPro Hero 3
 </div>
 <div class="card-block">
-<h4 class="card-title">Special title treatment</h4>
+<h4 class="card-title">GoPro Hero 3</h4>
 <img class="card-img-top" src="style/css/img/p1.jpg" alt="Card image cap">
-<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
 More Details</button>
 <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
-<h5 class="modal-title" id="exampleModalLabel">Assasin Creed</h5>
+<h5 class="modal-title" id="exampleModalLabel">GoPro Hero 3</h5>
 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
   <span aria-hidden="true">&times;</span>
 </button>
@@ -115,8 +115,7 @@ More Details</button>
 <iframe width="460" height="480" src="https://www.youtube.com/embed/A3PDXmYoF5U" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="modal-footer">
-The French Revolution was led by the people. They stood together and faught the oppression. This year, and for the 1st time in the Assassin's Creed® franchise, team up with friends to fight and destroy the symbols of oppression. THE online co-op mode you've been waiting for!
-  </div>
+Capture and share your life's most meaningful experiences with the HERO3+ Black Edition. 20% smaller and lighter than its best-selling predecessor, it delivers improved image quality and powerful new features geared for versatility and convenience. SuperView™ is a new video mode that captures the world's most immersive wide angle perspective, while Auto Low Light mode intelligently adjusts frame rate for stunning low-light performance. Combined with 30% longer battery life, faster built-in Wi-Fi and a sharper lens, the HERO3+ Black Edition is the most advanced GoPro yet.  </div>
 </div>
   </div>
 </div>
@@ -127,19 +126,19 @@ The French Revolution was led by the people. They stood together and faught the 
 </div>
 <div class="card text-center">
 <div class="card-header bg-primary">
-Featured
+Raser Blade
 </div>
 <div class="card-block">
-<h4 class="card-title">Special title treatment</h4>
+<h4 class="card-title">Raser Blade</h4>
 <img class="card-img-top" src="style/css/img/p2.jpg" alt="Card image cap">
-<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
 More Details</button>
 <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
-<h5 class="modal-title" id="exampleModalLabel">CastleVania Lord Of Shadow 2</h5>
+<h5 class="modal-title" id="exampleModalLabel">Raser Blade</h5>
 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 <span aria-hidden="true">&times;</span>
 </button>
@@ -148,7 +147,7 @@ More Details</button>
 <iframe width="460" height="480" src="https://www.youtube.com/embed/PzV2INVy3n0" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="modal-footer">
-Whips crack and war rages as a familiar stranger enters the battlefield in Castlevania: Lords of Shadow 2.</div>
+The new Razer Blade now comes packed with extreme levels of performance - featuring a future 3rd Generation Intel Quad Core Processor, NVIDIA GeForce GTX660M, 8GB 1600Mhz RAM, three USB 3.0 ports, and a 64GB SSD/500GB HDD hybrid drive. This beast will run next-gen games wherever you go.</div>
 </div>
 </div>
 </div>
@@ -159,19 +158,19 @@ Whips crack and war rages as a familiar stranger enters the battlefield in Castl
 </div>
 <div class="card text-center">
 <div class="card-header bg-primary">
-Featured
+Galaxy S7
 </div>
 <div class="card-block">
-<h4 class="card-title">Special title treatment</h4>
+<h4 class="card-title">Galaxy S7</h4>
 <img class="card-img-top" src="style/css/img/p3.jpg" alt="Card image cap">
-<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
 More Details</button>
 <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
-<h5 class="modal-title" id="exampleModalLabel">CastleVania Lord Of Shadow 2</h5>
+<h5 class="modal-title" id="exampleModalLabel">Galaxy S7</h5>
 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 <span aria-hidden="true">&times;</span>
 </button>
@@ -180,7 +179,7 @@ More Details</button>
 <iframe width="460" height="480" src="https://www.youtube.com/embed/cyohHyQl-kc" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="modal-footer">
-Whips crack and war rages as a familiar stranger enters the battlefield in Castlevania: Lords of Shadow 2.</div>
+Samsung Mobile is defying barriers once again with premium Galaxy smartphones that redefine the ways we imagine our technology. The Galaxy S7 and S7 edge will make you rethink what a phone can do.</div>
 </div>
 </div>
 </div>
