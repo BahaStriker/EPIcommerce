@@ -3,11 +3,11 @@
 <div id="page-content-wrapper" class="topi">
 <div class="container">
 <h3><i class="fa fa-users"></i> Nexus Shop</h3>
-<?php 
+<?php
 if( (isset($RESULT)) && (!empty($RESULT)) )
 {
-echo $RESULT;	
-} 
+echo $RESULT;
+}
 ?>
 </br></br>
 <form method="POST">
@@ -23,4 +23,7 @@ echo $RESULT;
 </form>
 	Don't have an account? <a href="?page=register">Register Now</a>
 </div>
+</div>
+<div class="ddddddddd">
+
 </div>
