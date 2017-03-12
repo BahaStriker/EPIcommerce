@@ -58,17 +58,184 @@
 					 </div>
 				 </li>
 				 <li class="loga nav-item">
-					 <a class="nav-link" href="#"><i class="icon fa fa-user"></i>login</a>
+					 <a class="nav-link" href="#" data-toggle="modal" data-target=".bs-example-modal-smOne"><i class="icon fa fa-user"></i>login</a>
+
 				 </li>
 				 <li class="logaa nav-item">
-					<a class="nav-link" href="#"><i class="icon fa fa-pensil"></i>register</a>
-				</li>
-			 </ul>
-			 <form class="form-inline my-2 my-lg-0">
-				 <input class="sear " type="text" name="search">
-				 <button class="btn btnn icon fa fa-search" type="submit"></button>
+					<a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalR"><i class="icon fa fa-pensil" ></i>register</a>
 
-			 </form>
 
 		 </div>
 	 </nav>
+	 <div class="modal fade" id="exampleModalR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		 <div class="modal-dialog" role="document">
+			 <div class="modal-content">
+				 <div class="modal-header">
+					 <h5 class="modal-title" id="exampleModalLabel">Assasin Creed</h5>
+					 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						 <span aria-hidden="true">&times;</span>
+					 </button>
+				 </div>
+				 <div class="modal-body">
+					 <div class="modal-body">
+						 <div class="panel panel-default panel-login">
+						 <div class="panel-heading">
+						 <h3 class="panel-title"><i class="fa fa-users"></i> Register to Nexus PW</h3>
+						 </div>
+	 <div class="row">
+
+
+						 <div class="panel-body">
+
+						 <div class="alert alert-info">
+						 <strong>Do not use uppercase in both Username and Password!</strong>
+						 </div>
+
+						 <form method="post">
+	 <div class="col-md-6 col-sm-6 col-xs-6">
+						 <div class="form-group input-icon-left">
+						 <i class="glyphicon glyphicon-user"></i>
+						 <input type="text" class="form-control" name="username" placeholder="Username">
+						 </div>
+						 <div class="form-group input-icon-left">
+						 <i class="glyphicon glyphicon-envelope"></i>
+						 <input type="email" class="form-control" name="email" placeholder="Email">
+						 </div>
+	 </div>
+	 <div class="col-md-6 col-sm-6 col-xs-6">
+						 <div class="form-group input-icon-left">
+						 <i class="glyphicon glyphicon-lock"></i>
+						 <input type="password" class="form-control" name="passwd" placeholder="Password">
+						 </div>
+						 <div class="form-group input-icon-left">
+						 <i class="glyphicon glyphicon-check"></i>
+						 <input type="password" class="form-control" name="repasswd" placeholder="Repeat Password">
+						 </div>
+	 </div>
+						 </br>
+						 <div class="controls form-group">
+						 <div class="row">
+						 <center><img src="/style/captcha/index.php?PHPSESSID=g1ng16mg7k673e0jkt25fe6894"></center>
+						 </br>
+						 <input type="text" class="form-control" name="captcha" id="security-password" placeholder="Your Answer"/>
+						 </div>
+						 </div>
+						 <div class="form-actions">
+						 By clicking "Register" You have read and agree on our <a href="?page=terms">Terms of Use</a>
+						 </div>
+						 </br>
+						 <input type="submit" name="submit" class="btn btn-primary btn-block" value="Register">
+						 </form>
+
+
+
+
+					</div><!-- /.modal-content -->
+			 </div><!-- /.modal-dialog -->
+</div>
+</div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	 <div class="modal fade bs-example-modal-smOne" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			<div class="modal-dialog modal-smOne" role="document">
+ <div class="modal-content animated zoomInDown">
+
+			<div class="panel panel-default panel-login">
+<div class="panel-heading">
+<h3 class="panel-title"><i class="fa fa-user"></i>Nexus Perfect World</h3>
+</div>
+<div class="panel-body">
+<form method="POST">
+<div class="form-group input-icon-left">
+<i class="fa fa-user"></i>
+<input type="text" style="text-transform:lowercase ;" class="form-control" name="login" placeholder="Username">
+</div>
+<div class="form-group input-icon-left">
+<i class="fa fa-lock"></i>
+<input type="password" class="form-control" name="passwd" placeholder="Password">
+</div>
+</br>
+</br>
+<input type="submit" name="logon" value="Login" class="btn btn-primary btn-block">
+</form>
+</div>
+	</div>
+
+	</div>
+
+	</div>
+	</div>
+	<div class="modal fade" id="exampleModalR" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Assasin Creed</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="modal-body">
+						<div class="panel panel-default panel-login">
+						<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-users"></i> Register to Nexus PW</h3>
+						</div>
+	<div class="row">
+
+
+						<div class="panel-body">
+
+						<div class="alert alert-info">
+						<strong>Do not use uppercase in both Username and Password!</strong>
+						</div>
+
+						<form method="post">
+	<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group input-icon-left">
+						<i class="glyphicon glyphicon-user"></i>
+						<input type="text" class="form-control" name="username" placeholder="Username">
+						</div>
+						<div class="form-group input-icon-left">
+						<i class="glyphicon glyphicon-envelope"></i>
+						<input type="email" class="form-control" name="email" placeholder="Email">
+						</div>
+	</div>
+	<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group input-icon-left">
+						<i class="glyphicon glyphicon-lock"></i>
+						<input type="password" class="form-control" name="passwd" placeholder="Password">
+						</div>
+						<div class="form-group input-icon-left">
+						<i class="glyphicon glyphicon-check"></i>
+						<input type="password" class="form-control" name="repasswd" placeholder="Repeat Password">
+						</div>
+	</div>
+						</br>
+						<div class="controls form-group">
+						<div class="row">
+						<center><img src="/style/captcha/index.php?PHPSESSID=g1ng16mg7k673e0jkt25fe6894"></center>
+						</br>
+						<input type="text" class="form-control" name="captcha" id="security-password" placeholder="Your Answer"/>
+						</div>
+						</div>
+						<div class="form-actions">
+						By clicking "Register" You have read and agree on our <a href="?page=terms">Terms of Use</a>
+						</div>
+						</br>
+						<input type="submit" name="submit" class="btn btn-primary btn-block" value="Register">
+						</form>
+
+
+
+
+				 </div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+</div>
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
