@@ -2,11 +2,11 @@
 </div>
 <div id="page-content-wrapper" class="topi">
 <div class="container">
-<h3><i class="fa fa-users"></i> Register to Nexus Shop</h3>
+<h3><i class="fa fa-users"></i> Nexus Shop</h3>
 <?php 
-if( (isset($ERROREG)) && (!empty($ERROREG)) )
+if( (isset($RESULT)) && (!empty($RESULT)) )
 {
-echo $ERROREG;	
+echo $RESULT;	
 } 
 ?>
 </br></br>

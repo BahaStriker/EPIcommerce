@@ -32,6 +32,7 @@ if(	isset($_POST['login']))
 		if	($Query->num_rows == 1)
 		{
 			$row = $Query->fetch_assoc();
+			$_SESSION['log']		=	1;
 			$_SESSION['login']		=	$row['banned'];
 			$_SESSION['id'] 		= 	$row['id'];
 			$_SESSION['user'] 		= 	$row['username'];

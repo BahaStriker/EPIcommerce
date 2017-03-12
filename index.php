@@ -36,9 +36,9 @@ if(session_id() == '')
 if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')	
 {
 	require	"views/header.php";
-	if(isset($_SESSION['login']))
+	if(isset($_SESSION['log']))
 	{
-		if($_SESSION['login']	==	0)
+		if($_SESSION['log']	==	0)
 		{
 			switch($page)
 			{
@@ -56,7 +56,9 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 									break;
 				case "article":		require "pages/article.php";
 									require "views/addarticle.php";
-									break;					
+									break;	
+				case "test":		require "views/test.php";
+									break;
 				case "logout":		session_unset();
 									session_destroy();
 									header('Location: /');
@@ -65,10 +67,6 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				default:			require 'views/404.php';
 									break;					
 			}
-		}
-		else
-		{
-			die("Your account has been banned!");
 		}
 	}
 	else

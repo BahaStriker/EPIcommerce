@@ -85,7 +85,7 @@ if(isset($_POST['submit']))
 			$Result	=	$mysqli->query("select * from `users` WHERE `username`='$Login'");
 			
 			$ERROREG = "<div class='alert alert-success'> 
-									<strong>Success!</strong> Account <b>{$Login}</b> has been registered with</br>Password: <b>{$Pass}</b> 
+									<strong>Success!</strong> Account <b>{$Login}</b> has been registered with 
 								</div>";
 		}
 	}
