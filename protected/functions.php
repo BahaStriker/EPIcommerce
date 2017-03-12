@@ -279,6 +279,16 @@ function Event()
   }
   $mysql->close();
 }
+//////////////////////////////
+function history()
+{
+$mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
+$cat=$mysql->query("SELECT ProductId FROM history") ;
+$cat2=$mysql->query("SELECT Ref FROM product WHERE ProductId=$cat");
+$cat3=$mysql->query("SELECT name FROM category WHERE refcat=$cat2");
+
+return $cat3;
+}
 
 //////////////////////////////
 
@@ -304,16 +314,16 @@ function test($prod)
 
 $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
   $intr=$mysql->query("SELECT interest FROM users");
-  $hist=$mysql->query("SELECT * FROM history ORDER BY ProductId");
+  $hist=$mysql->query("SELECT ProductId FROM history ORDER BY ProductId LIMIT 5");
   if (sex()=='f')
   {
     if (Event() == true)
     {
       $sel1=$mysql->query("SELECT ref FROM product");
-      $sel=$mysql->query("SELECT refcat From category WHERE ((type='Women' OR type='Girl') AND (save!=1) AND (name=$hist) OR (name=$intr))");
+      $sel=$mysql->query("SELECT refcat From product WHERE ((Description='Women' OR Description='Girl') AND (save!=1) AND (name=$hist) OR (name=$intr))");
     }
     else {
-      $sel=$mysql->query("SELECT refcat From category WHERE ((type='Women' OR type='Girl') AND (name=$hist) AND (name=$intr))");
+      $sel=$mysql->query("SELECT refcat From product WHERE ((Description='Women' OR Description='Girl') AND (name=$hist) AND (name=$intr))");
     }
   }
   elseif (sex()=='m')
@@ -322,7 +332,7 @@ $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
       if (Event() == true)
       {
         $sel1=$mysql->query("SELECT ref FROM product") ;
-        $sel=$mysql->query("SELECT refcat From category WHERE ((type='Boy' OR type='Men') AND (save!=1) AND (name=$hist) OR (name=$intr))");
+        $sel=$mysql->query("SELECT refcat From product WHERE ((Description='Boy' OR Description='Men') AND (save!=1) AND (name=$hist) OR (name=$intr))");
       }
       else {
         $sel=$mysql->query("SELECT refcat From category WHERE ((type='Women' OR type='Girl') AND (name=$hist) OR (name=$intr))");
