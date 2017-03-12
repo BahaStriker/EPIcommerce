@@ -236,7 +236,7 @@ function product()
   $Qeury = $mysql->query("SELECT * FROM product");
   while($a=$Qeury->fetch_array())
   {
-    $value	=	$a['ProductId']
+    $value	=	$a['ProductId'];
     $b=$mysql->query("SELECT Ref FROM Data");
     $c=$mysql->query("SELECT name FROM product WHERE ProductId = {$value}");
     $e=$mysql->query("SELECT save From Data");
@@ -248,7 +248,7 @@ function product()
 
   }
   $mysql->close();
-return $prod
+return $prod;
 }
 
 function Event()
@@ -281,7 +281,7 @@ function Event()
 function sex()
 {
 $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
-  if ($mysql->query("SELECT sexe FROM users='mail'")
+  if ($mysql->query("SELECT sexe FROM users='mail'"))
   {
     return 'm';
   }
@@ -299,9 +299,9 @@ function test($prod)
 $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
   $intr=$mysql->query("SELECT interest FROM users");
   $hist=$mysql->query("SELECT * FROM history ORDER BY '$cat3'");
-  if sex()=='f';
+  if (sex()=='f')
   {
-    if Event() == true
+    if (Event() == true)
     {
       $sel1=$mysql->query("SELECT ref FROM product");
       $sel=$mysql->query("SELECT refcat From category WHERE ((type=Women OR type=Girl) AND (save!=1) AND ($hist=name) OR ($intr=name))");
@@ -313,7 +313,7 @@ $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
   elseif (sex()=='m')
   {
     {
-      if Event() == true
+      if (Event() == true)
       {
         $sel1=$mysql->query("SELECT ref FROM product") ;
         $sel=$mysql->query("SELECT refcat From category WHERE ((type=Boy OR type=Men) AND (save!=1) AND ($hist=name) OR ($intr=name))");
