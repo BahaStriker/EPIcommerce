@@ -16,13 +16,13 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
       <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css'>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style/style/css/style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
-<link rel="stylesheet" href="css\owl.carousel.css">
+<link rel="stylesheet" href="style/css/owl.carousel.css">
 
-				<link rel="stylesheet" href="css/circle.css">
+				<link rel="stylesheet" href="style/css/circle.css">
 
 
 
@@ -39,7 +39,7 @@
 		 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 			 <span class="navbar-toggler-icon"></span>
 		 </button>
-		 <a class="navbar-brand" href="#"><img src="css/img/logo.png" alt="" height="30px" width:"30px"></a>
+		 <a class="navbar-brand" href="#"><img src="style/css/img/logo.png" alt="" height="30px" width:"30px"></a>
 
 		 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			 <ul class="navbar-nav mr-auto">
@@ -87,7 +87,7 @@
 
 
       	<div class="margin-5">
-      							<div class="widget widget-game" style="background-image: url(css/img/1-rec.jpg);">
+      							<div class="widget widget-game" style="background-image: url(style/css/img/1-rec.jpg);">
       								<div class="overlay">
                         <div class="description">
 
@@ -103,7 +103,7 @@
 
 
       																<div class="margin-5">
-      																						<div class="widget widget-game" style="background-image: url(css/img/2-rec.jpg);">
+      																						<div class="widget widget-game" style="background-image: url(style/css/img/2-rec.jpg);">
       																							<div class="overlay">
                                                       <div class="description">
 
@@ -116,7 +116,7 @@
 
 
       																					<div class="margin-5">
-      																											<div class="widget widget-game" style="background-image: url(css/img/3-rec.jpg);">
+      																											<div class="widget widget-game" style="background-image: url(style/css/img/3-rec.jpg);">
       																												<div class="overlay">
 
 
@@ -129,7 +129,7 @@
       																											</div>
       </div>
       																										<div class="margin-5">
-      																																<div class="widget widget-game" style="background-image: url(css/img/4-rec.jpg);">
+      																																<div class="widget widget-game" style="background-image: url(style/css/img/4-rec.jpg);">
       																																	<div class="overlay">
                                                                           <div class="description">
 
@@ -161,14 +161,14 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="css/img/bf1.jpg" alt="First slide">
+      <img class="d-block img-fluid" src="style/css/img/bf1.jpg" alt="First slide">
       <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="css/img/Re7.jpg" alt="Second slide">
+      <img class="d-block img-fluid" src="style/css/img/Re7.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="css/img/fh.jpg" alt="Third slide">
+      <img class="d-block img-fluid" src="style/css/img/fh.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -194,7 +194,7 @@
   </div>
   <div class="card-block">
     <h4 class="card-title">Special title treatment</h4>
-		<img class="card-img-top" src="css/img/p1.jpg" alt="Card image cap">
+		<img class="card-img-top" src="style/css/img/p1.jpg" alt="Card image cap">
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
 More Details</button>
@@ -229,7 +229,7 @@ Featured
 </div>
 <div class="card-block">
 <h4 class="card-title">Special title treatment</h4>
-<img class="card-img-top" src="css/img/p2.jpg" alt="Card image cap">
+<img class="card-img-top" src="style/css/img/p2.jpg" alt="Card image cap">
 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
 More Details</button>
@@ -264,7 +264,7 @@ Featured
 </div>
 <div class="card-block">
 <h4 class="card-title">Special title treatment</h4>
-<img class="card-img-top" src="css/img/p3.jpg" alt="Card image cap">
+<img class="card-img-top" src="style/css/img/p3.jpg" alt="Card image cap">
 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
 More Details</button>
@@ -295,7 +295,7 @@ Whips crack and war rages as a familiar stranger enters the battlefield in Castl
 	   </div>
       <div class="col-md-5 col-sm-5 col-xs-5 fixed">
 				<div class="card card-primary">
-  <img class="card-img" src="css/img/p1.jpg" alt="Card image">
+  <img class="card-img" src="style/css/img/p1.jpg" alt="Card image">
   <div class="card-img-overlay">
     <h4 class="card-title">Review</h4>
 		<div class="c100 p75 small blue">
@@ -316,7 +316,7 @@ Whips crack and war rages as a familiar stranger enters the battlefield in Castl
   </div>
 </div>
 <div class="card card-primary">
-  <img class="card-img" src="css/img/p2.jpg" alt="Card image">
+  <img class="card-img" src="style/css/img/p2.jpg" alt="Card image">
   <div class="card-img-overlay">
     <h4 class="card-title">Review</h4>
     <p class="card-text">
@@ -338,7 +338,7 @@ Whips crack and war rages as a familiar stranger enters the battlefield in Castl
   </div>
 </div>
 <div class="card card-primary">
-  <img class="card-img" src="css/img/p3.jpg" alt="Card image">
+  <img class="card-img" src="style/css/img/p3.jpg" alt="Card image">
   <div class="card-img-overlay">
     <h4 class="card-title">Review</h4>
     <div class="c100 p25 small red">
