@@ -8,7 +8,7 @@
 <div id="page-content-wrapper" class="topi">
 <div class="container">
 </br></br></br></br>
-<?php echo test(1);?>
+<?php echo test();?>
 </br></br></br></br></br>
 </div>
 </div>

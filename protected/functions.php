@@ -309,21 +309,23 @@ $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
 
 //////////////////////////////
 
-function test($prod)
+function test()
 {
 
 $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
-  $intr=$mysql->query("SELECT interest FROM users");
-  $hist=$mysql->query("SELECT ProductId FROM history ORDER BY ProductId LIMIT 5");
+  $intrr=$mysql->query("SELECT interest FROM users LIMIT 1");
+  $intr=$intrr->fetch_assoc()['interest'];
+  $histt=$mysql->query("SELECT ProductId FROM history LIMIT 1");
+  @$hist=$histt->fetch_assoc()['name'];
   if (sex()=='f')
   {
     if (Event() == true)
     {
       $sel1=$mysql->query("SELECT ref FROM product");
-      $sel=$mysql->query("SELECT refcat From product WHERE ((Description='Women' OR Description='Girl') AND (save!=1) AND (name=$hist) OR (name=$intr))");
+      $sel=$mysql->query("SELECT refcat From product WHERE (Description='Women') OR (Description='Girl') AND (save!=1) AND (name=$hist) OR (name=$intr)");
     }
     else {
-      $sel=$mysql->query("SELECT refcat From product WHERE ((Description='Women' OR Description='Girl') AND (name=$hist) AND (name=$intr))");
+      $sel=$mysql->query("SELECT refcat From product WHERE (Description='Women') OR (Description='Girl') AND (name=$hist) OR (name=$intr)");
     }
   }
   elseif (sex()=='m')
@@ -339,5 +341,6 @@ $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
       }
   }
   }
+  return $sel;
   $mysql->close();
 }
