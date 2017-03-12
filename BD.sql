@@ -10,10 +10,44 @@ Target Server Type    : MYSQL
 Target Server Version : 50554
 File Encoding         : 65001
 
-Date: 2017-03-12 00:41:01
+Date: 2017-03-12 04:52:25
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for category
+-- ----------------------------
+DROP TABLE IF EXISTS `category`;
+CREATE TABLE `category` (
+  `refcat` varchar(11) NOT NULL,
+  `name` text NOT NULL,
+  `type` enum('Girl','Boy','Child','Women','Men') NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Table structure for history
+-- ----------------------------
+DROP TABLE IF EXISTS `history`;
+CREATE TABLE `history` (
+  `ProductId` varchar(11) NOT NULL,
+  `BuyDate` datetime NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Table structure for product
+-- ----------------------------
+DROP TABLE IF EXISTS `product`;
+CREATE TABLE `product` (
+  `ProductId` varchar(11) NOT NULL,
+  `Name` text NOT NULL,
+  `Prix` decimal(10,0) NOT NULL,
+  `Ref` varchar(20) NOT NULL,
+  `Quant` int(11) NOT NULL,
+  `Img` varchar(100) NOT NULL,
+  `Description` varchar(100) NOT NULL,
+  PRIMARY KEY (`ProductId`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Table structure for users
@@ -36,4 +70,4 @@ CREATE TABLE `users` (
   `ip` varchar(255) NOT NULL,
   `banned` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
