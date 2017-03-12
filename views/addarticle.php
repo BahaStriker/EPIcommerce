@@ -1,5 +1,5 @@
 <?php
-if ($SESSION['role'] == 'seller')
+if ($_SESSION['role'] == 'seller')
 {
 ?>	
 <div class="margi">

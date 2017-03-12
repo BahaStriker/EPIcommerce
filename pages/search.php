@@ -20,7 +20,7 @@ if(isset($_POST['search']))
 		{
 			while($Results	=	$Query->fetch_array())
 			{
-				$SEARCHRESULTS	.=	"<a href='#'>".$Results['Name']."</a></br>";
+				$SEARCHRESULTS	.=	"<tr><td><a href='#'>".$Results['Name']."</a></td><td>Price : ".$Results['Prix']."DT</td><td>".$Results['Quant']."Units left</td></tr>";
 			}
 		}
 	}
