@@ -41,7 +41,7 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 			 <a class="nav-link" href="?page=logout"> Logout <i class="fa fa-power-off"></i></a>
 				</li>
 				<li class="nav-item">
-					 <a class="nav-link" href="?page=profil"> Profile <i class="fa fa-power-user"></i></a>
+					 <a class="nav-link" href="?page=profile"> Profile <i class="fa fa-power-user"></i></a>
 						</li>
 
 				<li class="logar nav-item">
