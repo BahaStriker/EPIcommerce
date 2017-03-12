@@ -34,6 +34,7 @@ if(session_id() == '')
 //making sure allowing access only from the domain
 if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')	
 {
+	require	"views/header.php";
 	if(isset($_SESSION['loging']))
 	{
 		if($_SESSION['loging']	==	0)
@@ -84,10 +85,14 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 									require "pages/login.php";
 									break;
 				
+				case "test":		require "views/index.php";
+									break;
+				
 				default:			require 'views/404.php';
 									break;
 			}
 	}
+	require	"views/footer.php";
 }
 else
 {
