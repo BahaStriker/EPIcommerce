@@ -27,5 +27,5 @@ HTML;
 }
 else
 {
-	@$HISTORY 	= "";
+	@$HISTORY 	= "Nothing to display";
 }
