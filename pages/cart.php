@@ -1,110 +1,92 @@
 <?php
-$erreur = false;
+//creation of pannier
+function Pannier(){
+   if (!isset($_SESSION['panier'])){
+      $_SESSION['panier']=array();
+      $_SESSION['panier']['ProdId'] = array();
+      $_SESSION['panier']['ProdQuant'] = array();
+      $_SESSION['panier']['ProdPrice'] = array();
+      $_SESSION['panier']['Lock'] = false;
+   }
+   return true;
+}
+function isLock(){
+   if (isset($_SESSION['panier']) && $_SESSION['panier']['Lock'])
+   return true;
+   else
+   return false;
+}
+//add Prod if it doesn't exist else add quantity
+function Add($ProdID,$ProdQuant,$ProdPrice){
 
-$action = (isset($_POST['action'])? $_POST['action']:  (isset($_GET['action'])? $_GET['action']:null )) ;
-if($action !== null)
-{
-   if(!in_array($action,array('Add', 'Delete', 'refresh')))
-   $erreur=true;
+   //If it exist
+   if (pannier() && !isVerrouille())
+   {
+      //If the Prod already exists add quantity
+      $ProdPosition = array_search($ProdID,  $_SESSION['panier']['ProdId']);
 
-   $l = (isset($_POST['l'])? $_POST['l']:  (isset($_GET['l'])? $_GET['l']:null )) ;
-   $p = (isset($_POST['p'])? $_POST['p']:  (isset($_GET['p'])? $_GET['p']:null )) ;
-   $q = (isset($_POST['q'])? $_POST['q']:  (isset($_GET['q'])? $_GET['q']:null )) ;
-
-   //delete vertical spacing
-   $l = preg_replace('#\v#', '',$l);
-  //verif $p is a float
-   $p = floatval($p);
-
-   //how to act with $q int or array of int 
-    
-   if (is_array($q)){
-      $ProdQuant = array();
-      $i=0;
-      foreach ($q as $cont){
-         $ProdQuant[$i++] = intval($cont);
+      if ($ProdPosition !== false)
+      {
+         $_SESSION['panier']['ProdQuant'][$ProdPosition] += $ProdQuant ;
+      }
+      else
+      {
+         //else add Prod
+         array_push( $_SESSION['panier']['ProdId'],$ProdID);
+         array_push( $_SESSION['panier']['ProdQuant'],$ProdQuant);
+         array_push( $_SESSION['panier']['ProdPrice'],$ProdPrice);
       }
    }
    else
-   $q = intval($q);
-    
+   echo "A problem occured while adding a Item Speak with the Support.";
 }
+//Delete Prod
+//creat a new pannier without the elemnt we don't need then replace it 
+function ProdDel($ProdID){
+   //If pannier existes
+   if (Pannier() && !isLock())
+   {
+      $tmp=array();
+      $tmp['ProdId'] = array();
+      $tmp['ProdQuant'] = array();
+      $tmp['ProdPrice'] = array();
+      $tmp['Lock'] = $_SESSION['panier']['Lock'];
 
-if (!$erreur){
-   switch($action){
-      Case "Add":
-         Pannier($l,$q,$p);
-         break;
-
-      Case "Delete":
-         ProdDel($l);
-         break;
-
-      Case "refresh" :
-         for ($i = 0 ; $i < count($ProdQuant) ; $i++)
+      for($i = 0; $i < count($_SESSION['panier']['ProdId']); $i++)
+      {
+         if ($_SESSION['panier']['ProdId'][$i] !== $ProdID)
          {
-            modifierProdQuant($_SESSION['panier']['ProdId'][$i],round($ProdQuant[$i]));
+            array_push( $tmp['ProdID'],$_SESSION['panier']['ProdId'][$i]);
+            array_push( $tmp['ProdQuant'],$_SESSION['panier']['ProdQuant'][$i]);
+            array_push( $tmp['ProdPrice'],$_SESSION['panier']['ProdPrice'][$i]);
          }
-         break;
 
-      Default:
-         break;
+      }
+      //We change the the pannier with our new one 
+      $_SESSION['panier'] =  $tmp;
+      //we delete our new pannier 
+      unset($tmp);
    }
+   else
+   $CARTERROR	= "<div class='alert alert-danger'>A problem occured while adding a Item Speak with the Support.</div>";
 }
+//edit article
+function ProdEdit($ProdID,$ProdQuant){
+   if (Pannier() && !isLock())
+   {
+      //If the quantity is positive or we delete
+      if ($ProdQuant > 0)
+      {
+         //search the prod in the pannier
+         $ProdPosition = array_search($ProdID,  $_SESSION['panier']['ProdId']);
 
-echo '<?xml version="1.0" encoding="utf-8"?>';?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
-<head>
-<title>Your Cart</title>
-</head>
-<body>
-
-<form method="post" action="pannier.php">
-<table style="width: 400px">
-	<tr>
-		<td colspan="4">Votre panier</td>
-	</tr>
-	<tr>
-		<td>Id</td>
-		<td>Quantity</td>
-		<td>Product Price</td>
-		<td>Action</td>
-	</tr>
-
-
-	<?php
-	if (Pannier())
-	{
-	   $ProdNbr=count($_SESSION['panier']['ProdId']);
-	   if ($ProdNbr <= 0)
-	   echo "<tr><td>Votre panier est vide </ td></tr>";
-	   else
-	   {
-	      for ($i=0 ;$i < $ProdNbr ; $i++)
-	      {
-	         echo "<tr>";
-	         echo "<td>".htmlspecialchars($_SESSION['panier']['ProdId'][$i])."</ td>";
-	         echo "<td><input type=\"text\" size=\"4\" name=\"q[]\" value=\"".htmlspecialchars($_SESSION['panier']['qteProduit'][$i])."\"/></td>";
-	         echo "<td>".htmlspecialchars($_SESSION['panier']['ProdPrice'][$i])."</td>";
-	         echo "<td><a href=\"".htmlspecialchars("pannier.php?action=delete&l=".rawurlencode($_SESSION['panier']['ProdId'][$i]))."\">XX</a></td>";
-	         echo "</tr>";
-	      }
-
-	      echo "<tr><td colspan=\"2\"> </td>";
-	      echo "<td colspan=\"2\">";
-	      echo "Total : ".MontantGlobal();
-	      echo "</td></tr>";
-
-	      echo "<tr><td colspan=\"4\">";
-	      echo "<input type=\"submit\" value=\"Done\"/>";
-	      echo "<input type=\"hidden\" name=\"action\" value=\"refresh\"/>";
-
-	      echo "</td></tr>";
-	   }
-	}
-	?>
-</table>
-</form>
-</body>
-</html>
+         if ($ProdPosition !== false)
+         {
+            $_SESSION['panier']['ProdQuant'][$ProdPosition] = $ProdQuant ;
+         }
+      }
+      else
+      ProdDel($ProdID);
+   }
+   else
+   $CARTERROR	= "<div class='alert alert-danger'>A problem occured while adding a Item Speak with the Support.</div>";
