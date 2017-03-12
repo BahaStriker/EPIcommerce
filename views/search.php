@@ -8,7 +8,7 @@
 <div id="page-content-wrapper" class="topi">
 <div class="container">
 </br></br></br></br>
-<h3><i class="fa fa-users"></i> 404 - Not Found</h3>
+<?php echo $SEARCHRESULTS; ?>
 </br></br></br></br></br>
 </div>
 </div>

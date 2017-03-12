@@ -43,7 +43,7 @@
 				 <a class="dropdown-item" href="#">Something else here</a>
 			 </div>
 		 </li>
-		 <form class="form-inline my-2 my-lg-0 pad">
+		 <form class="form-inline my-2 my-lg-0 pad" method="POST" method="?page=search">
 			 <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter By</a>
 				<div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -52,8 +52,8 @@
 					<a class="dropdown-item" href="#">Something else here</a>
 				</div>
 			</li>
-			 <input class="form-control mr-sm-2" type="text" placeholder="Search">
-			 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			 <input class="form-control mr-sm-2" type="text" name="item" placeholder="Search">
+			 <input type="submit" class="btn btn-outline-success my-2 my-sm-0" name="search" value="Search">
 		 </form>
 		 <li class="loga nav-item">
 			 <a class="nav-link" href="?page=login"><i class="icon fa fa-user"></i>login</a>

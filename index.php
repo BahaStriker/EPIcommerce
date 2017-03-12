@@ -51,6 +51,9 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "cart":		require "pages/cart.php";
 									break;	
 				
+				case "search":		require "pages/search.php";
+									require "views/search.php";
+									break;
 				case "logout":		session_unset();
 									session_destroy();
 									header('Location: /');
@@ -75,15 +78,15 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "index.php":	require "views/main.php";
 									break;
 				
-				case "register":	require "views/register.php";
-									require "pages/register.php";
+				case "register":	require "pages/register.php";
+									require "views/register.php";
 									break;	
 				
 				case "cart":		require "pages/cart.php";
 									break;
 				
-				case "login":		require "views/login.php";
-									require "pages/login.php";
+				case "login":		require "pages/login.php";
+									require "views/login.php";
 									break;
 				
 				case "test":		require "views/index.php";
