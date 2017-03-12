@@ -24,6 +24,7 @@ unset($_GET["_"]);
 chdir(__dir__);
 require "protected/config.php";
 require "protected/functions.php";
+require "pages/logincontrol.php";
 
 //Checking if there's a session or not
 if(session_id() == '') 
@@ -35,9 +36,9 @@ if(session_id() == '')
 if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')	
 {
 	require	"views/header.php";
-	if(isset($_SESSION['loging']))
+	if(isset($_SESSION['login']))
 	{
-		if($_SESSION['loging']	==	0)
+		if($_SESSION['login']	==	0)
 		{
 			switch($page)
 			{
