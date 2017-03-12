@@ -9,7 +9,7 @@ if(isset($_SESSION['log']))
 			 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
 		 </li>
 
-		
+
 		 <form class="form-inline my-2 my-lg-0 pad" method="POST" action="?page=search">
 			 <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter By</a>
@@ -25,7 +25,7 @@ if(isset($_SESSION['log']))
 		 <li class="loga nav-item">
 			 <a class="nav-link" href="?page=logout"><i class="icon fa fa-user"></i>Logout</a>
 		</li>
-		<li class="logaa nav-item">
+		<li class="logar nav-item">
 			<a class="nav-link" href=""><i class="icon fa fa-cart-arrow-down"></i></a>
 	 </li>
 	 </ul>
