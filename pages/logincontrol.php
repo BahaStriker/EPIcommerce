@@ -23,7 +23,7 @@ if(isset($_SESSION['log']))
 			 <input type="submit" class="btn btn-outline-success my-2 my-sm-0" name="search" value="Search">
 		 </form>
 		 <li class="loga nav-item">
-			 <a class="nav-link" href="?page=logout"><i class="icon fa fa-user"></i>Logout</a>
+			 <a class="nav-link" href="?page=logout">Logout<i class="icon fa fa-user"></i></a>
 		</li>
 		<li class="logar nav-item">
 			<a class="nav-link" href=""><i class="icon fa fa-cart-arrow-down"></i></a>
