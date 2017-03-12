@@ -8,13 +8,13 @@ $dom	=	explode(".",$dom);
 $dom	=	array_shift($dom);
 
 //Checking Page GET
-if(isset($_GET["page"])) 
+if(isset($_GET["page"]))
 {
 	$page = strtolower($_GET["page"]);
 }
-else 
-{ 
-	$page = NULL; 
+else
+{
+	$page = NULL;
 }
 
 unset($_GET["page"]);
@@ -26,22 +26,22 @@ require "protected/config.php";
 require "protected/functions.php";
 
 //Checking if there's a session or not
-if(session_id() == '') 
+if(session_id() == '')
 {
     session_start();
 }
 
 //making sure allowing access only from the domain
-if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')	
+if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 {
-	
+
 	if(isset($_SESSION['log']))
 	{
 		$USER	=	'<li class="loga nav-item">
-			 <a class="nav-link" href="?page=logout"><i class="fa fa-power-off"></i> Logout</a>
+			 <a class="nav-link" href="?page=logout"> Logout <i class="fa fa-power-off"></i></a>
 				</li>
 
-				<li class="logaa nav-item">
+				<li class="logar nav-item">
 			<a class="nav-link" href="?page=cart"><i class="icon fa fa-cart-arrow-down"></i> Cart</a>
 	 </li>';
 		require	"views/header.php";
@@ -53,30 +53,30 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "":
 				case "home":
 				case "index.php":	require "views/main.php";
-									break;	
-				
+									break;
+
 				case "cart":		require "pages/cart.php";
-									break;	
-				
+									break;
+
 				case "search":		require "pages/search.php";
 									require "views/search.php";
-									break;					
+									break;
 				case "article":		require "pages/article.php";
 									require "views/addarticle.php";
-									break;						
+									break;
 				case "profile":		require "pages/profile.php";
 									require "views/profile.php";
 									break;
-				case "test":		
+				case "test":
 									require "views/test.php";
-									break;					
+									break;
 				case "logout":		session_unset();
 									session_destroy();
 									header('Location: /');
 									break;
-									
+
 				default:			require 'views/404.php';
-									break;					
+									break;
 			}
 		}
 	}
@@ -96,22 +96,22 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				case "home":
 				case "index.php":	require "views/main.php";
 									break;
-				
+
 				case "register":	require "pages/register.php";
 									require "views/register.php";
-									break;	
-				
+									break;
+
 				case "cart":		require "pages/cart.php";
 									break;
-				
+
 				case "login":		require "pages/login.php";
 									require "views/login.php";
 									break;
-				
+
 				case "search":		require "pages/search.php";
 									require "views/search.php";
 									break;
-				
+
 				default:			require 'views/404.php';
 									break;
 			}
