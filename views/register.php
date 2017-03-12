@@ -67,4 +67,3 @@ By clicking "Register" You have read and agree on our <a href="?page=terms">Term
 Already have an account? <a href="index.php?page=login">Login Now!</a>
 </div>
 </div>
-

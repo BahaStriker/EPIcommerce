@@ -47,7 +47,7 @@
 			 </div>
 		 </li>
 		 <li class="loga nav-item">
-			 <a class="nav-link" href="?page=register"><i class="icon fa fa-user"></i>login</a>
+			 <a class="nav-link" href="?page=login"><i class="icon fa fa-user"></i>login</a>
 		 </li>
 		 <li class="logaa nav-item">
 			<a class="nav-link" href="?page=register"><i class="icon fa fa-pensil"></i>register</a>

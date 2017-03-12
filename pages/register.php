@@ -13,6 +13,7 @@ if(isset($_POST['submit']))
 	$City		= $_POST['city'];
 	$State		= $_POST['state'];
 	$Zip		= $_POST['zip'];
+	$Country	= $_POST['country'];
 	$BDate		= $_POST['birth'];
 
     $Login 		= office_secure($Login);
@@ -27,6 +28,7 @@ if(isset($_POST['submit']))
 	$State		= office_secure($State);
 	$Zip		= office_secure($Zip);
 	$BDate		= office_secure($BDate);
+	$Country	= office_secure($Country);
 	$ip			= get_ip();
 	
 	//Checking if required fields are empty
@@ -61,7 +63,7 @@ if(isset($_POST['submit']))
 	else
 	{
 		$Query = $mysqli->query("SELECT username FROM users WHERE username='{$Login}'");
-		
+		$CAN		=	true;
 		if ($Query->num_rows != 0)
 		{
 			$ERROREG 	= "<div class='alert alert-danger'>Username already exists!</div>";
@@ -79,7 +81,7 @@ if(isset($_POST['submit']))
 		if ($CAN)
 		{
 			$hash = base64_encode(md5($Login.$Pass, true));
-			$mysqli->query("INSERT INTO users (`username`,`password`,`name`,`lastname`,`email`,`address`,`country`,`city`,`state`,`zip`,`birthdate`,`ip`) VALUES ('$Login', '$Salt', '$Name', '$LName', '$Email', '$Address', '$Country', '$City', '$State', '$Zip', '$BDate','$ip')");
+			$mysqli->query("INSERT INTO users (`username`,`password`,`name`,`lastname`,`email`,`address`,`country`,`city`,`state`,`zip`,`birthdate`,`ip`) VALUES ('$Login', '$hash', '$Name', '$LName', '$Email', '$Address', '$Country', '$City', '$State', '$Zip', '$BDate','$ip')");
 			$Result	=	$mysqli->query("select * from `users` WHERE `username`='$Login'");
 			
 			$ERROREG = "<div class='alert alert-success'> 
