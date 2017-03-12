@@ -50,6 +50,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
  <script type="text/javascript">
  var $search = $('.sear');
  $(".btnn").click( function (h) {
+   h.preventDefault();
 $("search").toggle();
 
 })

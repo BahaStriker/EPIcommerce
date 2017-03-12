@@ -58,7 +58,7 @@
 	 </form>
 </div>
 </nav>
-<div class="searche">
+<div class="search">
 
 
 		    <div class="input-group">
