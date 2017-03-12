@@ -15,7 +15,8 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/1-rec.jpg);">
 <div class="overlay">
  <div class="description">
-<a href="#" class=" dow btn btn-block btn-primary  ">Follow now <i class="fa fa-heart-o margin-left-10"></i></a>
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">
+   More Details</button>
 </div>
 </div>
 </div>
@@ -24,8 +25,8 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/2-rec.jpg);">
 <div class="overlay">
 <div class="description">
-<a href="#" class=" dow btn btn-block btn-primary  ">Follow now <i class="fa fa-heart-o margin-left-10"></i></a>
-</div>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
+  More Details</button></div>
 </div>
 </div>
 </div>
@@ -33,8 +34,8 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/3-rec.jpg);">
 <div class="overlay">
 <div class="description">
-<a href="#" class=" dow btn btn-block btn-primary  ">Follow now <i class="fa fa-heart-o margin-left-10"></i></a>
-</div>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
+  More Details</button></div>
 </div>
 </div>
 </div>
@@ -42,8 +43,8 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/4-rec.jpg);">
 <div class="overlay">
 <div class="description">
-<a href="#" class=" dow btn btn-block btn-primary  ">Follow now <i class="fa fa-heart-o margin-left-10"></i></a>
-</div>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal9">
+  More Details</button></div>
 </div>
 </div>
 </div>
@@ -254,7 +255,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
 </div>
   </div>
 </div>
-<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
@@ -283,7 +284,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
   </div>
 </div>
 </div>
-<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
@@ -312,7 +313,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
   </div>
 </div>
 </div>
-<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
@@ -341,7 +342,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
   </div>
 </div>
 </div>
-<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
