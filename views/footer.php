@@ -1,5 +1,4 @@
-<script type="text/javascript" src="style/js/jquery-3.1.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <script type="text/javascript" src="style/js/owl.carousel.min.js"></script>
 <script>
      $('.owl-carousel').owlCarousel({
@@ -13,7 +12,7 @@
 <script type="text/javascript" src="style/js/jquery.easypiechart.min.js"></script>
 <script type="text/javascript" src="style/js/twitter.js"></script>
 <script type="text/javascript" src="style/js/core.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
 <script>
 var $progress = $('.progress');
 var $progressBar = $('.progress-bar');

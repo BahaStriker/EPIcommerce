@@ -192,7 +192,7 @@ Whips crack and war rages as a familiar stranger enters the battlefield in Castl
 </div>
 <div class="col-md-5 col-sm-5 col-xs-5 fixed">
 <div class="card card-primary">
-<img class="card-img" src="style/css/img/p1.jpg" alt="Card image">
+<img class="card-img" src="style/css/img/side1.jpg" alt="Card image">
 <div class="card-img-overlay">
 <h4 class="card-title">Review</h4>
 <div class="c100 p75 small blue">
@@ -206,7 +206,7 @@ Whips crack and war rages as a familiar stranger enters the battlefield in Castl
 </div>
 </div>
 <div class="card card-primary">
-<img class="card-img" src="style/css/img/p2.jpg" alt="Card image">
+<img class="card-img" src="style/css/img/side2.jpg" alt="Card image">
 <div class="card-img-overlay">
 <h4 class="card-title">Review</h4>
 <p class="card-text">
@@ -222,7 +222,7 @@ Whips crack and war rages as a familiar stranger enters the battlefield in Castl
 </div>
 </div>
 <div class="card card-primary">
-<img class="card-img" src="style/css/img/p3.jpg" alt="Card image">
+<img class="card-img" src="style/css/img/side3.jpg" alt="Card image">
 <div class="card-img-overlay">
 <h4 class="card-title">Review</h4>
 <div class="c100 p25 small red">
