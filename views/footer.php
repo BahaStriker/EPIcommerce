@@ -65,44 +65,19 @@ $(document).ready(function(e){
  </script>
 <footer class="bg-primary">
 <div class="container">
-<div class="row">
-<div class="col-md-4">
-<ul>
-Consoles
-<li><a href="#">Xbox</a></li>
-<li><a href="#">PlayStation</a></li>
-<li><a href="#">Nintendo</a></li>
-<li><a href="#">PC</a></li>
-</ul>
-</div>
-<div class="col-md-4">
-<ul>
-	Categorys
-<li><a href="#">Sports</a></li>
-<li><a href="#">MMORPG</a></li>
-<li><a href="#">Moba</a></li>
-<li><a href="#">FPS</a></li>
-<li><a href="#">RPG</a></li>
-<li><a href="#">Action</a></li>
-<li><a href="#">Platform</a></li>
-</ul>
-</div>
-<div class="col-md-4">
-<ul>
-Games Top 10
-<li><a href="#">Uncharted 4: A Thief`s End</a></li>
-<li><a href="#">Overwatch</a></li>
-<li><a href="#">Forza Horizon 3</a></li>
-<li><a href="#">XCOM 2</a></li>
-<li><a href="#">Battlefield 1</a></li>
-<li><a href="#">The Division</a></li>
-<li><a href="#">Titanfall 2</a></li>
-<li><a href="#">The Last Guardian</a></li>
-<li><a href="#">Ratchet & Clank</a></li>
-<li><a href="#">DOOM</a></li>
-</div>
-</div>
-</div>
+  <a class="btn btn-circle btn-social-icon btn-bitbucket"><i class="fa fa-bitbucket"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-flickr"><i class="fa fa-flickr"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+  						<a class="btn btn-circle btn-social-icon btn-vk"><i class="fa fa-vk"></i></a>
+
 <div class="CR">
 Nexus Shop &copy; - Copyright
 </div>
