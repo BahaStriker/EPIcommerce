@@ -227,3 +227,101 @@ function PannierPrice(){
    }
    return $total;
    }
+   
+//////////////////////////////
+
+function product()
+{
+	$mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
+  $Qeury = $mysql->query("SELECT * FROM product");
+  while($a=$Qeury->fetch_array())
+  {
+    $value	=	$a['ProductId']
+    $b=$mysql->query("SELECT Ref FROM Data");
+    $c=$mysql->query("SELECT name FROM product WHERE ProductId = {$value}");
+    $e=$mysql->query("SELECT save From Data");
+    $s=$mysql->query("SELECT type FROM Data WHERE ProductId = {$value}");
+    array_push($prod,$value);
+    array_push($prod[$value],$c);
+    array_push($prod[$value],$s);
+    array_push($prod[$value],$e);
+
+  }
+  $mysql->close();
+return $prod
+}
+
+function Event()
+{
+	$mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
+  $Query	=	$mysql->query("SELECT * FROM users WHERE id={$SESSION['id']}");
+  $Date	=	$Query->fetch_assoc()['birthdate'];
+
+  list ($Year, $Month, $Day) = explode('-', $Date);
+
+  $CurrentDate	=	$value	=	gmdate("Y-m-d", time());
+
+  list ($CYear, $CMonth, $CDay) = explode('-', $CurrentDate);
+  $Day=(int)$Day;
+  $CDay=(int)$CDay;
+  if ($Month==$CMonth)
+  {
+    if ($Day-$CDay<3)
+    {
+      return true;
+    }
+    else
+    {
+      return false;
+    }
+  }
+  $mysql->close();
+}
+
+function sex()
+{
+$mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
+  if ($mysql->query("SELECT sexe FROM users='mail'")
+  {
+    return 'm';
+  }
+  else {
+     {
+       return'f';
+     }
+  }
+  $mysql->close();
+}
+
+function test($prod)
+{
+
+$mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
+  $intr=$mysql->query("SELECT interest FROM users");
+  $hist=$mysql->query("SELECT * FROM history ORDER BY '$cat3'");
+  if sex()=='f';
+  {
+    if Event() == true
+    {
+      $sel1=$mysql->query("SELECT ref FROM product");
+      $sel=$mysql->query("SELECT refcat From category WHERE ((type=Women OR type=Girl) AND (save!=1) AND ($hist=name) OR ($intr=name))");
+    }
+    else {
+      $sel=$mysql->query("SELECT refcat From category WHERE ((type=Women OR type=Girl) AND ($hist=name) AND ($intr=name))");
+    }
+  }
+  elseif (sex()=='m')
+  {
+    {
+      if Event() == true
+      {
+        $sel1=$mysql->query("SELECT ref FROM product") ;
+        $sel=$mysql->query("SELECT refcat From category WHERE ((type=Boy OR type=Men) AND (save!=1) AND ($hist=name) OR ($intr=name))");
+      }
+      else {
+        $sel=$mysql->query("SELECT refcat From category WHERE ((type=Women OR type=Girl) AND ($hist=name) OR ($intr=name))");
+      }
+  }
+  }
+  $mysql->close();
+}
