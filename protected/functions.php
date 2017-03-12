@@ -251,6 +251,8 @@ function product()
 return $prod;
 }
 
+//////////////////////////////
+
 function Event()
 {
 	$mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
@@ -278,6 +280,8 @@ function Event()
   $mysql->close();
 }
 
+//////////////////////////////
+
 function sex()
 {
 $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
@@ -292,6 +296,8 @@ $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
   }
   $mysql->close();
 }
+
+//////////////////////////////
 
 function test($prod)
 {

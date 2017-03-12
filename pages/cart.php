@@ -60,7 +60,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';?>
 </head>
 <body>
 
-<form method="post" action="pannier.php">
+<form method="post">
   <div class="card">
     <div class="card-block">
       <div class="card" style="width: 20rem;">
