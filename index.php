@@ -24,7 +24,6 @@ unset($_GET["_"]);
 chdir(__dir__);
 require "protected/config.php";
 require "protected/functions.php";
-require "pages/logincontrol.php";
 
 //Checking if there's a session or not
 if(session_id() == '') 
@@ -35,9 +34,13 @@ if(session_id() == '')
 //making sure allowing access only from the domain
 if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')	
 {
-	require	"views/header.php";
+	
 	if(isset($_SESSION['log']))
 	{
+		$USER	=	'<li class="loga nav-item">
+			 <a class="nav-link" href="?page=logout"><i class="icon fa fa-user"></i> Logout</a>
+				</li>';
+		require	"views/header.php";
 		if($_SESSION['log']	==	1)
 		{
 			switch($page)
@@ -71,6 +74,13 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 	}
 	else
 	{
+		$USER	=	'<li class="loga nav-item">
+			 <a class="nav-link" href="?page=login"><i class="icon fa fa-user"></i> login</a>
+		 </li>
+		 <li class="logaa nav-item">
+			<a class="nav-link" href="?page=register"><i class="icon fa fa-pencil-square-o"></i> register</a>
+		</li>';
+		require	"views/header.php";
 		switch($page)
 			{
 				case NULL:

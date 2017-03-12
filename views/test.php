@@ -1,4 +1,5 @@
 <?php
+echo "</br></br></br></br>";
 echo $_SESSION['log'];
 echo "</br>";
 echo $_SESSION['login'];
