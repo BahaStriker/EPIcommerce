@@ -1,6 +1,7 @@
 .bat {
   position: absolute;
   bottom:0;
+  width:95%;
 }
 .brofist {
   background-color: lightgray;
