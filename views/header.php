@@ -46,16 +46,11 @@
 				 <a class="dropdown-item" href="#">Something else here</a>
 			 </div>
 		 </li>
-		 <li class="loga nav-item">
-			 <a class="nav-link" href="?page=login"><i class="icon fa fa-user"></i>login</a>
-		 </li>
-		 <li class="logaa nav-item">
-			<a class="nav-link" href="?page=register"><i class="icon fa fa-pensil"></i>register</a>
-		</li>
+		 <?php echo $USER; ?>
 	 </ul>
 <form class="form-inline my-2 my-lg-0">
  <input class="sear " type="text" name="search">
  <button class="btn btnn icon fa fa-search" type="submit"></button>
-	 </form>
+</form>
 </div>
 </nav>

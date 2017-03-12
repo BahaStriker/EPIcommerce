@@ -1,11 +1,3 @@
-<?php
-if (isset($_SESSION['id'])){
-	
-	header('Location: /');
-}
-$sessionname = session_name();
-$sessionid = session_id();
-?>
 <div class="margi">
 <div class="progress">
 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>

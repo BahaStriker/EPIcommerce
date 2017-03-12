@@ -1,9 +1,3 @@
-<?php
-if (isset($_SESSION['id'])){
-	
-	header('Location: /');
-}
-?>
 <div class="topi">
 </div>
 <div id="page-content-wrapper" class="topi">

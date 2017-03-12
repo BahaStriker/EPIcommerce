@@ -1,12 +1,14 @@
 <?php
-if(isset($_SESSION['login']))
+if(isset($_SESSION['id']))
 {
-	$USER	=<<<HTML
+	if($_SESSION['login']	==	0)
+	{
+		$USER	=<<<HTML
 	<li class="loga nav-item">
 			 <a class="nav-link" href="?page=logout"><i class="icon fa fa-user"></i>Logout</a>
 	</li>	 
 HTML;
-	
+	}
 }
 else
 {
