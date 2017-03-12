@@ -40,6 +40,9 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 		$USER	=	'<li class="loga nav-item">
 			 <a class="nav-link" href="?page=logout"> Logout <i class="fa fa-power-off"></i></a>
 				</li>
+				<li class="nav-item">
+					 <a class="nav-link" href="?page=profil"> Profile <i class="fa fa-power-user"></i></a>
+						</li>
 
 				<li class="logar nav-item">
 			<a class="nav-link" href="?page=cart"><i class="icon fa fa-cart-arrow-down"></i> Cart</a>
