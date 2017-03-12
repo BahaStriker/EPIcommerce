@@ -49,6 +49,16 @@ echo $ERROREG;
 <div class="form-group input-icon-left">
 <input type="text" class="form-control" name="birth" placeholder="Birthdate (YYYY-MM-YY)">
 </div>
+<div class="form-group input-icon-left">
+Gender : <select name="sexe">
+<option value="Unknown">Unknown</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+</div>
+<div class="form-group input-icon-left">
+<input type="checkbox" name="seller" value="seller"> are you a seller?
+</div>
 
 <div class="form-actions">
 By clicking "Register" You have read and agree on our <a href="?page=terms">Terms of Use</a>

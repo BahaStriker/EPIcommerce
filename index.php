@@ -56,10 +56,10 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 				
 				case "search":		require "pages/search.php";
 									require "views/search.php";
-									break;
+									break;					
 				case "article":		require "pages/article.php";
 									require "views/addarticle.php";
-									break;	
+									break;						
 				case "test":		require "views/test.php";
 									break;
 				case "logout":		session_unset();

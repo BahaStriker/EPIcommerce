@@ -15,6 +15,7 @@ if(isset($_POST['submit']))
 	$Zip		= $_POST['zip'];
 	$Country	= $_POST['country'];
 	$BDate		= $_POST['birth'];
+	$SEXE		= $_POST['sexe'];
 
     $Login 		= office_secure($Login);
     $Login 		= StrToLower(Trim($Login));
@@ -29,6 +30,7 @@ if(isset($_POST['submit']))
 	$Zip		= office_secure($Zip);
 	$BDate		= office_secure($BDate);
 	$Country	= office_secure($Country);
+	$SEXE		= office_secure($SEXE);
 	$ip			= get_ip();
 	
 	//Checking if required fields are empty
@@ -81,12 +83,24 @@ if(isset($_POST['submit']))
 		if ($CAN)
 		{
 			$hash = base64_encode(md5($Login.$Pass, true));
-			$mysqli->query("INSERT INTO users (`username`,`password`,`name`,`lastname`,`email`,`address`,`country`,`city`,`state`,`zip`,`birthdate`,`ip`) VALUES ('$Login', '$hash', '$Name', '$LName', '$Email', '$Address', '$Country', '$City', '$State', '$Zip', '$BDate','$ip')");
+			if(isset($_POST['seller']))
+			{
+				$mysqli->query("INSERT INTO users (`username`,`password`,`name`,`lastname`,`email`,`address`,`country`,`city`,`state`,`zip`,`birthdate`,`role`,`ip`) VALUES ('$Login', '$hash', '$Name', '$LName', '$Email', '$Address', '$Country', '$City', '$State', '$Zip', '$BDate','seller','$ip','$SEXE')");
+				$Result	=	$mysqli->query("select * from `users` WHERE `username`='$Login'");
+			
+				$ERROREG = "<div class='alert alert-success'> 
+									<strong>Success!</strong> a seller account <b>{$Login}</b> has been registered. 
+								</div>";
+			}
+			else
+			{
+			$mysqli->query("INSERT INTO users (`username`,`password`,`name`,`lastname`,`email`,`address`,`country`,`city`,`state`,`zip`,`birthdate`,`ip`) VALUES ('$Login', '$hash', '$Name', '$LName', '$Email', '$Address', '$Country', '$City', '$State', '$Zip', '$BDate','$ip','$SEXE')");
 			$Result	=	$mysqli->query("select * from `users` WHERE `username`='$Login'");
 			
 			$ERROREG = "<div class='alert alert-success'> 
-									<strong>Success!</strong> Account <b>{$Login}</b> has been registered with 
+									<strong>Success!</strong> Account <b>{$Login}</b> has been registered.
 								</div>";
+			}
 		}
 	}
 }
