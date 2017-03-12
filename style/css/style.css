@@ -106,6 +106,9 @@ width:0px;
   width:90px;
 
 }
+.alert-danger {
+  height:300px;
+}
 .pad {
   position: absolute;
   right:188px;
