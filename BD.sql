@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50554
 File Encoding         : 65001
 
-Date: 2017-03-12 04:52:25
+Date: 2017-03-12 05:00:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -22,7 +22,8 @@ DROP TABLE IF EXISTS `category`;
 CREATE TABLE `category` (
   `refcat` varchar(11) NOT NULL,
   `name` text NOT NULL,
-  `type` enum('Girl','Boy','Child','Women','Men') NOT NULL
+  `type` enum('Girl','Boy','Child','Women','Men') NOT NULL,
+  KEY `refcat` (`refcat`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- ----------------------------
@@ -31,7 +32,8 @@ CREATE TABLE `category` (
 DROP TABLE IF EXISTS `history`;
 CREATE TABLE `history` (
   `ProductId` varchar(11) NOT NULL,
-  `BuyDate` datetime NOT NULL
+  `BuyDate` datetime NOT NULL,
+  KEY `ProductId` (`ProductId`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- ----------------------------
@@ -46,7 +48,8 @@ CREATE TABLE `product` (
   `Quant` int(11) NOT NULL,
   `Img` varchar(100) NOT NULL,
   `Description` varchar(100) NOT NULL,
-  PRIMARY KEY (`ProductId`)
+  PRIMARY KEY (`ProductId`),
+  KEY `Ref` (`Ref`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- ----------------------------
@@ -69,5 +72,6 @@ CREATE TABLE `users` (
   `role` enum('member','seller','admin') NOT NULL DEFAULT 'member',
   `ip` varchar(255) NOT NULL,
   `banned` int(11) NOT NULL DEFAULT '0',
+  `interest` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
