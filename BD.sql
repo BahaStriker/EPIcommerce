@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50554
 File Encoding         : 65001
 
-Date: 2017-03-12 05:32:09
+Date: 2017-03-12 06:21:41
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,6 +25,18 @@ CREATE TABLE `category` (
   `type` enum('Girl','Boy','Child','Women','Men') NOT NULL,
   KEY `refcat` (`refcat`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Table structure for contenu
+-- ----------------------------
+DROP TABLE IF EXISTS `contenu`;
+CREATE TABLE `contenu` (
+  `Title` varchar(255) DEFAULT NULL,
+  `contenu` varchar(255) DEFAULT NULL,
+  `writer` varchar(255) DEFAULT NULL,
+  `img` varchar(255) DEFAULT NULL,
+  `Time_uplo` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 -- Table structure for history
