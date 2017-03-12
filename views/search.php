@@ -8,7 +8,9 @@
 <div id="page-content-wrapper" class="topi">
 <div class="container">
 </br></br></br></br>
+<table>
 <?php echo $SEARCHRESULTS; ?>
+</table>
 </br></br></br></br></br>
 </div>
 </div>
