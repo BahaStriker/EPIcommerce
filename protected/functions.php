@@ -285,7 +285,7 @@ function Event()
 function sex()
 {
 $mysql 		= new mysqli('localhost','striker','Qwerty123.','market');
-  if ($mysql->query("SELECT sexe FROM users='mail'"))
+  if ($mysql->query("SELECT sexe FROM users='male'"))
   {
     return 'm';
   }
