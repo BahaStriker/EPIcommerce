@@ -1,7 +1,7 @@
 <?php
 if ($_SESSION['role'] == 'seller')
 {
-?>	
+?>
 <div class="margi">
 <div class="progress">
 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
@@ -22,11 +22,16 @@ if ($_SESSION['role'] == 'seller')
 <input type="text" class="form-control" placeholder="Author" name="author" <?php if ($mode_edition == 1) {?>value=" <?=$edit_article['writer']  ?>"<?php }?> >
 </div>
 <div class="form-group">
+<input type="text" class="form-control" placeholder="Author" name="Type" <?php if ($mode_edition == 1) {?>value=" <?=$edit_article['writer']  ?>"<?php }?> >
+</div>
+<div class="form-group">
+  <input type="checkbox" name="male" value="">Male
+  <input type="checkbox" name="female" value="">female
+  <input type="checkbox" name="all" value="">female
 <textarea class="form-control" rows="7" placeholder="Content" name="article_content"><?php if ($mode_edition == 1) {?> <?= $edit_article['contenu']; ?><?php } ?></textarea>
 </div>
 <div class="text-center">
 <input type="file" name="img" class="btn btn-block btn-social btn-pinterest" style="border-radius: 0; " <?php if ($mode_edition == 1) {?> value=" <?= $edit_article['img']  ?> "<?php }?> ><input type="submit" class="btn btn-primary btn-block" value="Send The New Article"></input>
-
 
 </div>
 </form>
@@ -56,6 +61,6 @@ Forbidden for members!
 
 </div>
 </div>
-<?php	
+<?php
 }
 ?>
