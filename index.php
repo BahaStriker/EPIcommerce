@@ -89,7 +89,8 @@ if($dom	==	'localhost' || $dom	==	'epi-challenge' || $dom	==	'epi-challenge.tk')
 									require "views/login.php";
 									break;
 				
-				case "test":		require "views/index.php";
+				case "search":		require "pages/search.php";
+									require "views/search.php";
 									break;
 				
 				default:			require 'views/404.php';
