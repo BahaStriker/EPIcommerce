@@ -1,7 +1,7 @@
 <?php
 db_mssql_check_xss();
 
-if(isset($_POST['register']))
+if(isset($_POST['submit']))
 {
 	$Login 		= $_POST['username'];
     $Pass 		= $_POST['passwd'];
@@ -18,24 +18,15 @@ if(isset($_POST['register']))
     $Login 		= office_secure($Login);
     $Login 		= StrToLower(Trim($Login));
     $Pass 		= office_secure($Pass);
-    $Pass		= StrToLower(Trim($Pass));
     $Repass 	= office_secure($Repass);
-    $Repass 	= StrToLower(Trim($Repass));
     $Email 		= Trim($Email);
 	$Name		= office_secure($Name);
-	$Name		= StrToLower(Trim($Name));
 	$LName		= office_secure($LName);
-	$LName		= StrToLower(Trim($LName));
 	$Address	= office_secure($Address);
-	$Address	= StrToLower(Trim($Address));
 	$City		= office_secure($City);
-	$City		= StrToLower(Trim($City));
 	$State		= office_secure($State);
-	$State		= StrToLower(Trim($State));
 	$Zip		= office_secure($Zip);
-	$Zip		= StrToLower(Trim($Zip));
 	$BDate		= office_secure($BDate);
-	$BDate		= StrToLower(Trim($BDate));
 	$ip			= get_ip();
 	
 	//Checking if required fields are empty

@@ -22,6 +22,7 @@ if( (isset($ERROREG)) && (!empty($ERROREG)) )
 echo $ERROREG;	
 } 
 ?>
+</br></br>
 <form method="post">
 <div class="form-group input-icon-left">
 <input type="text" class="form-control" name="username" placeholder="Username" required>
@@ -61,7 +62,7 @@ echo $ERROREG;
 By clicking "Register" You have read and agree on our <a href="?page=terms">Terms of Use</a>
 </div>
 </br>
-<input type="submit" name="register" class="btn btn-primary btn-block" value="Register">	
+<input type="submit" name="submit" class="btn btn-primary btn-block" value="Register">	
 </form>
 Already have an account? <a href="index.php?page=login">Login Now!</a>
 </div>
