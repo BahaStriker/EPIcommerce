@@ -1,3 +1,11 @@
+.loga {
+  position: absolute;
+  right:10px;
+}
+.logaa {
+  position: absolute;
+  right:70px;
+}
 html,body{
 
 margin:0px auto;
@@ -20,7 +28,7 @@ margin-top: 2px;
 .sear {
 padding-left: 5px;
   position:absolute;
-  right:16px;
+  right:200px;
   border:none;
   border-radius: 15px 15px 15px 15px;
   width:20px;
@@ -57,6 +65,9 @@ width:0px;
   right:0;
 }
 .btnn {
+  z-index: 2;
+  position: absolute;
+  right:200px;
   width:18px;
   margin:0px;
 }
