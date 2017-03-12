@@ -65,16 +65,16 @@
   </ol>
   <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
-  <img class="d-block img-fluid" src="../style/css/img/gal-3.jpg" alt="First slide">
+  <img class="d-block img-fluid" src="../style/css/img/gal3.jpg" alt="First slide">
   <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <div class="carousel-item">
-  <img class="d-block img-fluid" src="../style/css/img/gal-2.jpg" alt="Second slide">
+  <img class="d-block img-fluid" src="../style/css/img/gal2.jpg" alt="Second slide">
   <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </div>
 <div class="carousel-item">
-  <img class="d-block img-fluid" src="../style/css/img/gal-1.jpg" alt="Third slide">
+  <img class="d-block img-fluid" src="../style/css/img/gal1.jpg" alt="Third slide">
   <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </div>
@@ -112,7 +112,7 @@ More Details</button>
 </button>
   </div>
   <div class="modal-body">
-<iframe width="460" height="480" src="https://www.youtube.com/embed/xzCEdSKMkdU" frameborder="0" allowfullscreen></iframe>
+<iframe width="460" height="480" src="https://www.youtube.com/embed/A3PDXmYoF5U" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="modal-footer">
 The French Revolution was led by the people. They stood together and faught the oppression. This year, and for the 1st time in the Assassin's Creed® franchise, team up with friends to fight and destroy the symbols of oppression. THE online co-op mode you've been waiting for!
@@ -145,7 +145,7 @@ More Details</button>
 </button>
 </div>
 <div class="modal-body">
-<iframe width="460" height="480" src="https://www.youtube.com/embed/vUcUz5Vo6iw" frameborder="0" allowfullscreen></iframe>
+<iframe width="460" height="480" src="https://www.youtube.com/embed/PzV2INVy3n0" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="modal-footer">
 Whips crack and war rages as a familiar stranger enters the battlefield in Castlevania: Lords of Shadow 2.</div>
@@ -177,7 +177,7 @@ More Details</button>
 </button>
 </div>
 <div class="modal-body">
-<iframe width="460" height="480" src="https://www.youtube.com/embed/eYNCCu0y-Is" frameborder="0" allowfullscreen></iframe>
+<iframe width="460" height="480" src="https://www.youtube.com/embed/cyohHyQl-kc" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="modal-footer">
 Whips crack and war rages as a familiar stranger enters the battlefield in Castlevania: Lords of Shadow 2.</div>
