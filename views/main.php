@@ -268,7 +268,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <img src="style/css/img/2rec.jpg" alt="">
+      <img src="style/css/img/2-rec.jpg" alt="">
 
     </div>
     <div class="col-md-4 brofist">
@@ -297,7 +297,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <img src="style/css/img/3rec.jpg" alt="">
+      <img src="style/css/img/3-rec.jpg" alt="">
 
     </div>
     <div class="col-md-4 brofist">
@@ -326,7 +326,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <img src="style/css/img/4rec.jpg" alt="">
+      <img src="style/css/img/4-rec.jpg" alt="">
 
     </div>
     <div class="col-md-4 brofist">
@@ -355,7 +355,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <img src="style/css/img/1rec.jpg" alt="">
+      <img src="style/css/img/1-rec.jpg" alt="">
 
     </div>
     <div class="col-md-4 brofist">
