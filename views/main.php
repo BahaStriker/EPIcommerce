@@ -25,7 +25,7 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/2-rec.jpg);">
 <div class="overlay">
 <div class="description">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
   More Details</button></div>
 </div>
 </div>
@@ -34,7 +34,7 @@
 <div class="widget widget-game" style="background-image: url(style/css/img/3-rec.jpg);">
 <div class="overlay">
 <div class="description">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal7">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal8">
   More Details</button></div>
 </div>
 </div>
@@ -284,6 +284,35 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
   </div>
 </div>
 </div>
+<div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">MEGIR</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+  </div>
+  <div class="modal-body">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <img src="style/css/img/4-rec.jpg" alt="">
+
+    </div>
+    <div class="col-md-4 brofist">
+      <p class="card-text">MEGIR Watch</p>
+      <h1>99£</h1>
+    <a href="#" class="btn btn-primary fa fa-cart-plus"></a>
+    </div>
+
+  </div>
+
+</div>
+</div>
+  </div>
+</div>
+</div>
 <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
@@ -326,7 +355,7 @@ Capture and share your life's most meaningful experiences with the HERO3+ Black 
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <img src="style/css/img/4-rec.jpg" alt="">
+      <img src="style/css/img/2-rec.jpg" alt="">
 
     </div>
     <div class="col-md-4 brofist">
