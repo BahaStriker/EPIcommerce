@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50554
 File Encoding         : 65001
 
-Date: 2017-03-12 06:21:41
+Date: 2017-03-12 07:01:18
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -65,6 +65,17 @@ CREATE TABLE `product` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- ----------------------------
+-- Table structure for sharticle
+-- ----------------------------
+DROP TABLE IF EXISTS `sharticle`;
+CREATE TABLE `sharticle` (
+  `Titres` varchar(255) DEFAULT NULL,
+  `Class` varchar(255) DEFAULT NULL,
+  `Designer` varchar(255) DEFAULT NULL,
+  `imgs` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- ----------------------------
 -- Table structure for users
 -- ----------------------------
 DROP TABLE IF EXISTS `users`;
@@ -87,4 +98,4 @@ CREATE TABLE `users` (
   `interest` varchar(255) DEFAULT NULL,
   `sexe` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
